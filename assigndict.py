@@ -8,7 +8,7 @@ for i in range(a):
     b,c=input().split()# b=key and c=value
     Car[b]=c
 print(Car)
-with open("brand&color.txt","w") as f:
+with open("brandandcolor.txt","w") as f:
     f.write("Car Brands and Colors\n")
     for i,j in Car.items():
         f.write("%s:%s\n"%(i,j))
